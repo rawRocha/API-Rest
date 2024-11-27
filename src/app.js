@@ -15,7 +15,11 @@ import tokenRoutes from "./routes/tokenRoutes";
 import alunoRoutes from "./routes/alunoRoutes";
 import imageRoutes from "./routes/imageRoutes";
 
-const whiteList = ["http://34.151.206.50:82", "http://localhost:3000"];
+const whiteList = [
+  "http://34.151.206.50:82",
+  "http://localhost:3000",
+  "https://pt.wikipedia.org",
+];
 
 const corsOptions = {
   origin(origin, callback) {
