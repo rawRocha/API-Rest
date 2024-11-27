@@ -15,7 +15,11 @@ var _tokenRoutes = require('./routes/tokenRoutes'); var _tokenRoutes2 = _interop
 var _alunoRoutes = require('./routes/alunoRoutes'); var _alunoRoutes2 = _interopRequireDefault(_alunoRoutes);
 var _imageRoutes = require('./routes/imageRoutes'); var _imageRoutes2 = _interopRequireDefault(_imageRoutes);
 
-const whiteList = ["http://34.151.206.50:82", "http://localhost:3000"];
+const whiteList = [
+  "http://34.151.206.50:82",
+  "http://localhost:3000",
+  "https://pt.wikipedia.org",
+];
 
 const corsOptions = {
   origin(origin, callback) {
